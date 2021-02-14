@@ -1,0 +1,5 @@
+pankaj.tolani@tolani-mac graphql_fun_demo % rails g model User email:string name:string
+Running via Spring preloader in process 37761
+      invoke  active_record
+      create    db/migrate/20210209215244_create_users.rb
+      create    app/models/user.rb

@@ -1,0 +1,6 @@
+pankaj.tolani@tolani-mac graphql_fun_demo % rails g graphql:object user
+Running via Spring preloader in process 89415
+      create  app/graphql/types/user_type.rb
+pankaj.tolani@tolani-mac graphql_fun_demo % rails g graphql:object post
+Running via Spring preloader in process 89469
+      create  app/graphql/types/post_type.rb

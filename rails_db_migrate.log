@@ -1,0 +1,10 @@
+rails db:migrate
+== 20210209215244 CreateUsers: migrating ======================================
+-- create_table(:users)
+   -> 0.0023s
+== 20210209215244 CreateUsers: migrated (0.0024s) =============================
+
+== 20210209215436 CreatePosts: migrating ======================================
+-- create_table(:posts)
+   -> 0.0030s
+== 20210209215436 CreatePosts: migrated (0.0031s) =============================

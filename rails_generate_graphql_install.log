@@ -1,0 +1,38 @@
+pankaj.tolani@tolani-mac graphql_fun_demo % rails generate graphql:install
+Running via Spring preloader in process 85471
+      create  app/graphql/types
+      create  app/graphql/types/.keep
+      create  app/graphql/graphql_fun_demo_schema.rb
+      create  app/graphql/types/base_object.rb
+      create  app/graphql/types/base_argument.rb
+      create  app/graphql/types/base_field.rb
+      create  app/graphql/types/base_enum.rb
+      create  app/graphql/types/base_input_object.rb
+      create  app/graphql/types/base_interface.rb
+      create  app/graphql/types/base_scalar.rb
+      create  app/graphql/types/base_union.rb
+      create  app/graphql/types/query_type.rb
+add_root_type  query
+      create  app/graphql/mutations
+      create  app/graphql/mutations/.keep
+      create  app/graphql/mutations/base_mutation.rb
+      create  app/graphql/types/mutation_type.rb
+add_root_type  mutation
+      create  app/controllers/graphql_controller.rb
+       route  post "/graphql", to: "graphql#execute"
+Skipped graphiql, as this rails project is API only
+  You may wish to use GraphiQL.app for development: https://github.com/skevy/graphiql-app
+    generate  graphql:relay
+       rails  generate graphql:relay
+Running via Spring preloader in process 85478
+      create  app/graphql/types/node_type.rb
+      insert  app/graphql/types/query_type.rb
+      create  app/graphql/types/base_connection.rb
+      create  app/graphql/types/base_edge.rb
+      insert  app/graphql/types/base_object.rb
+      insert  app/graphql/types/base_object.rb
+      insert  app/graphql/types/base_union.rb
+      insert  app/graphql/types/base_union.rb
+      insert  app/graphql/types/base_interface.rb
+      insert  app/graphql/types/base_interface.rb
+      insert  app/graphql/graphql_fun_demo_schema.rb
